@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-image: url('./images/background.jpeg');
+    background-size: cover;
+}
+
+div.overlay {
+    background: rgba(221,255,255,.5); 
+    width: 100%;
+    height: 100%; 
+    z-index: 10;
+    top: 0; 
+    left: 0; 
+    position: fixed; 
+  }
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.farmyard {
+    margin: 0;
+    height: 540px;
+    width: 800px;
+    background-image: url('./images/farm.png');
+    background-size: cover;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+#character {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    align-self: flex-end;
+    /* background-image: url('./images/tractor.png'); */
+}
+
+.beatbox {
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(180deg, rgba(114,202,254,1) 5%, rgba(221,255,255,1) 35%, rgba(114,178,29,1) 100%);
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.beat {
+    width: 90px;
+    height: 90px;
+    flex-basis: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beat .button {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background:rgba(221, 13, 17, 0.9);
+    border: 5px solid rgb(174,95,65);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 2em;
+    transition: all 0.2s;
+}
