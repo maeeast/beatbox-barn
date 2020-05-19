@@ -42,6 +42,18 @@ div.overlay {
     /* background-image: url('./images/tractor.png'); */
 }
 
+.instructions {
+    font-size: 18px;;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 0 4px;
+    padding: 20px;
+}
+
 .beatbox {
     width: 400px;
     height: 600px;
